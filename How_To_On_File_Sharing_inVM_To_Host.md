@@ -20,9 +20,11 @@ reboot -f
 ## On Host (windows) VM settings
 
 Goto Settings -> Shared folders -> edit share
+
 check in 
 	Auto-mount
 	make-permanent 
+
 Fill
 	Folder Path:- <Windows_path>
 	Folder Name:- <Name_on_Window>

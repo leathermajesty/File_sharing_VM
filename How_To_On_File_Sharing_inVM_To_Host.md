@@ -26,6 +26,9 @@ check in
 	make-permanent 
 
 Fill
-	Folder Path:- <Windows_path>
-	Folder Name:- <Name_on_Window>
-	Mount point:- /mnt/cdrom
+	
+ Folder Path:- <Windows_path>
+
+ Folder Name:- <Name_on_Window>
+
+ Mount point:- /mnt/cdrom

@@ -1,113 +1,135 @@
-Got it — you want the **Obsidian version**, with **internal links**, but **ULTRA COMPACT** (no extra line breaks).
+Got it — here is the **GitHub-optimized Markdown version**.
+This version is:
 
-Here is the **tightest, cleanest format** that Obsidian can link properly.
+✅ 100% GitHub compatible
+✅ Internal links work ON GitHub
+✅ Works in Obsidian too
+❌ Does not use Obsidian wikilinks
+✔ Uses GitHub’s correct anchor format: `[text](#anchor-name)`
 
----
-
-# 🚀 **GIT COMMAND TABLE (Obsidian – Ultra Compact)**
-
-|Task|Command|Info|
-|---|---|---|
-|Go to project|`cd ~/Desktop/File_sharing_VM`|[[#Go to project]]|
-|List files|`ls -la`|[[#List files]]|
-|Repo status|`git status`|[[#Repo status]]|
-|Show branches|`git branch -a`|[[#Show branches]]|
-|Show remotes|`git remote -v`|[[#Show remotes]]|
-|Delete Keychain login|`git credential-osxkeychain erase`|[[#Delete Keychain login]]|
-|Push (with token)|`git push -u origin main`|[[#Push with token]]|
-|Commit list|`git log --oneline`|[[#Commit list]]|
-|Reset commit|`git reset --hard <hash>`|[[#Reset commit]]|
-|Force overwrite|`git push origin main --force-with-lease`|[[#Force overwrite]]|
-|Fetch|`git fetch origin`|[[#Fetch]]|
-|Pull with rebase|`git pull --rebase origin main`|[[#Pull with rebase]]|
-|Stage all|`git add .`|[[#Stage all]]|
-|Commit|`git commit -m "msg"`|[[#Commit]]|
-|Push|`git push`|[[#Push]]|
-|Keychain login|`git credential-osxkeychain get`|[[#Keychain login]]|
-|Git identity|`git config user.name`|[[#Git identity]]|
-|Switch main|`git switch main`|[[#Switch main]]|
-|Remote info|`git remote show origin`|[[#Remote info]]|
+Just **copy-paste this into a `.md` file** and upload to GitHub.
 
 ---
 
-# 📘 **DETAILED SECTIONS (No blank lines, fully compact)**
+# 📘 **GIT CHEAT-SHEET (GitHub Compatible Version)**
+
+### ✔ All links below WILL redirect properly on GitHub.
+
+---
+
+# 🚀 **GIT COMMAND TABLE (Clickable)**
+
+| Task                   | Command                                   | Info                               |
+| ---------------------- | ----------------------------------------- | ---------------------------------- |
+| Go to project          | `cd ~/Desktop/File_sharing_VM`            | [Details](#go-to-project)          |
+| List files             | `ls -la`                                  | [Details](#list-files)             |
+| Repo status            | `git status`                              | [Details](#repo-status)            |
+| Show branches          | `git branch -a`                           | [Details](#show-branches)          |
+| Show remotes           | `git remote -v`                           | [Details](#show-remotes)           |
+| Delete old password    | `git credential-osxkeychain erase`        | [Details](#delete-old-password)    |
+| Push (with token)      | `git push -u origin main`                 | [Details](#push-with-token)        |
+| Commit list            | `git log --oneline`                       | [Details](#commit-list)            |
+| Reset commit           | `git reset --hard <hash>`                 | [Details](#reset-commit)           |
+| Force overwrite remote | `git push origin main --force-with-lease` | [Details](#force-overwrite-remote) |
+| Fetch                  | `git fetch origin`                        | [Details](#fetch)                  |
+| Pull with rebase       | `git pull --rebase origin main`           | [Details](#pull-with-rebase)       |
+| Stage all              | `git add .`                               | [Details](#stage-all)              |
+| Commit                 | `git commit -m "msg"`                     | [Details](#commit)                 |
+| Push                   | `git push`                                | [Details](#push)                   |
+| Show Keychain login    | `git credential-osxkeychain get`          | [Details](#show-keychain-login)    |
+| Git identity           | `git config user.name`                    | [Details](#git-identity)           |
+| Switch to main         | `git switch main`                         | [Details](#switch-to-main)         |
+| Remote info            | `git remote show origin`                  | [Details](#remote-info)            |
+
+---
+
+# 📘 **DETAILED EXPLANATIONS**
 
 ## Go to project
 
-Navigate to your Git project folder.
+Move into your Git project folder.
 
 ## List files
 
-Shows all files, including hidden.
+Shows all files, including hidden ones.
 
 ## Repo status
 
-Displays modified, staged, untracked files.
+Shows modified, staged, and untracked files.
 
 ## Show branches
 
-Lists local & remote branches.
+Lists all branches — local and remote.
 
 ## Show remotes
 
-Shows GitHub fetch/push URLs.
+Displays GitHub fetch/push URLs.
 
-## Delete Keychain login
+## Delete old password
 
-Clears old GitHub login from macOS Keychain.
+Removes old GitHub login stored in macOS Keychain.
 
 ## Push with token
 
-Pushes code & asks for username + PAT token.
+Pushes code to GitHub and asks for username + PAT token.
 
 ## Commit list
 
-Shows short commit history.
+Shows commits in a compact one-line format.
 
 ## Reset commit
 
-Moves branch to older commit, deletes newer ones locally.
+Moves your branch to an older commit and deletes newer commits (locally).
 
-## Force overwrite
+## Force overwrite remote
 
-Overwrites GitHub history using your local branch.
+Updates GitHub history to match your local reset branch safely.
 
 ## Fetch
 
-Downloads latest remote data without merging.
+Downloads latest remote commit info without changing files.
 
 ## Pull with rebase
 
-Updates branch by replaying your commits cleanly.
+Pulls updates cleanly by putting your commits on top.
 
 ## Stage all
 
-Stages all new/modified files.
+Stages all modified/untracked files.
 
 ## Commit
 
-Creates a commit with a message.
+Creates a new commit with a message.
 
 ## Push
 
 Pushes commits to GitHub.
 
-## Keychain login
+## Show Keychain login
 
-Shows stored GitHub credential from Keychain.
+Displays stored GitHub username/token (HTTPS auth).
 
 ## Git identity
 
-Shows your Git commit username & email.
+Shows your Git commit username and email.
 
-## Switch main
+## Switch to main
 
-Switches to the `main` branch.
+Moves you back to the main branch.
 
 ## Remote info
 
-Shows remote branch info, URLs, status.
+Shows detailed remote branch status and URLs.
 
 ---
 
-If you want an even **more compact** version (one-line descriptions), I can generate that too.
+# 🎉 Your GitHub-compatible cheat-sheet is ready!
+
+If you want:
+
+📄 I can generate a **PDF version**
+🗂️ A **side-by-side collapsible version**
+🎨 A **stylish version with colored callouts**
+📦 Or convert this into a full GitHub README template
+
+Just tell me!

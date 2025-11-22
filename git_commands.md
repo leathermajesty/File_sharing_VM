@@ -1,19 +1,3 @@
-Got it — here is the **GitHub-optimized Markdown version**.
-This version is:
-
-✅ 100% GitHub compatible
-✅ Internal links work ON GitHub
-✅ Works in Obsidian too
-❌ Does not use Obsidian wikilinks
-✔ Uses GitHub’s correct anchor format: `[text](#anchor-name)`
-
-Just **copy-paste this into a `.md` file** and upload to GitHub.
-
----
-
-# 📘 **GIT CHEAT-SHEET (GitHub Compatible Version)**
-
-### ✔ All links below WILL redirect properly on GitHub.
 
 ---
 
@@ -122,14 +106,3 @@ Moves you back to the main branch.
 Shows detailed remote branch status and URLs.
 
 ---
-
-# 🎉 Your GitHub-compatible cheat-sheet is ready!
-
-If you want:
-
-📄 I can generate a **PDF version**
-🗂️ A **side-by-side collapsible version**
-🎨 A **stylish version with colored callouts**
-📦 Or convert this into a full GitHub README template
-
-Just tell me!
